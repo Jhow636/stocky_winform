@@ -32,8 +32,8 @@ namespace Stocky
 
         private static void SeedDemoData()
         {
-            var defaultCat = CategoryService.Register("General");
-            var toolsCat = CategoryService.Register("Tools");
+            var defaultCat = CategoryService.Register("Geral");
+            var toolsCat = CategoryService.Register("Ferramentas");
 
             UserService.Register("admin@company", "admin", Models.Role.Admin);
             UserService.Register("user@company", "user", Models.Role.User);
