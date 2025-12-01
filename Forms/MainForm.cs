@@ -31,6 +31,7 @@ namespace Stocky.Forms
                 btnProducts.Enabled = false;
                 btnCategories.Enabled = false;
                 btnMovements.Enabled = false;
+                btnRegister_User.Enabled = false;
             }
         }
 
@@ -100,7 +101,13 @@ namespace Stocky.Forms
             using var login = new LoginForm();
             this.Hide();
             login.ShowDialog();
-            this.Close(); 
+            this.Close();
+        }
+
+        private void btnRegister_User_Click(object sender, EventArgs e)
+        {
+            using var f = new UserForm(_currentUser, Program.UserService);
+            f.ShowDialog();
         }
     }
 }

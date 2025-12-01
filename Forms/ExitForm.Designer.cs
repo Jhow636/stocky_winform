@@ -110,7 +110,7 @@
             // lblCurrentStock
             // 
             lblCurrentStock.AutoSize = true;
-            lblCurrentStock.Location = new Point(315, 105);
+            lblCurrentStock.Location = new Point(315, 135);
             lblCurrentStock.Name = "lblCurrentStock";
             lblCurrentStock.Size = new Size(67, 15);
             lblCurrentStock.TabIndex = 50;
@@ -138,6 +138,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(598, 386);
             Controls.Add(numQuantity);
             Controls.Add(lblQuantity);
@@ -150,7 +151,7 @@
             Controls.Add(lblProduct);
             Controls.Add(lblDescription);
             Name = "ExitForm";
-            Text = "ExitForm";
+            Text = "Saída de Estoque";
             Load += ExitForm_Load;
             ((System.ComponentModel.ISupportInitialize)numQuantity).EndInit();
             ResumeLayout(false);

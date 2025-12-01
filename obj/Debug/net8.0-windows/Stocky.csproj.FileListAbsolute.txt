@@ -3,7 +3,6 @@ C:\Users\alves\source\repos\Stocky\Stocky\bin\Debug\net8.0-windows\Stocky.deps.j
 C:\Users\alves\source\repos\Stocky\Stocky\bin\Debug\net8.0-windows\Stocky.runtimeconfig.json
 C:\Users\alves\source\repos\Stocky\Stocky\bin\Debug\net8.0-windows\Stocky.dll
 C:\Users\alves\source\repos\Stocky\Stocky\bin\Debug\net8.0-windows\Stocky.pdb
-C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.Form1.resources
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.Forms.CategoryForm.resources
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.Forms.EntryForm.resources
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.Forms.ExitForm.resources
@@ -23,3 +22,4 @@ C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.pdb
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.genruntimeconfig.cache
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\ref\Stocky.dll
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.sourcelink.json
+C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.Forms.UserForm.resources

@@ -249,6 +249,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(870, 450);
             Controls.Add(dgvProducts);
             Controls.Add(btnClose);
@@ -272,7 +273,7 @@
             Controls.Add(lblDescription);
             Controls.Add(lblName);
             Name = "ProductForm";
-            Text = "ProductForm";
+            Text = "Produtos";
             Load += Location_Load;
             ((System.ComponentModel.ISupportInitialize)numMinStock).EndInit();
             ((System.ComponentModel.ISupportInitialize)numMaxStock).EndInit();

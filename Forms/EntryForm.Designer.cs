@@ -72,7 +72,7 @@
             // lblCurrentStock
             // 
             lblCurrentStock.AutoSize = true;
-            lblCurrentStock.Location = new Point(285, 92);
+            lblCurrentStock.Location = new Point(285, 122);
             lblCurrentStock.Name = "lblCurrentStock";
             lblCurrentStock.Size = new Size(67, 15);
             lblCurrentStock.TabIndex = 29;
@@ -138,6 +138,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(545, 352);
             Controls.Add(numQuantity);
             Controls.Add(lblQuantity);
@@ -150,7 +151,7 @@
             Controls.Add(lblProduct);
             Controls.Add(lblDescription);
             Name = "EntryForm";
-            Text = "EntryForm";
+            Text = "Entrada de Estoque";
             Load += EntryForm_Load;
             ((System.ComponentModel.ISupportInitialize)numQuantity).EndInit();
             ResumeLayout(false);

@@ -119,12 +119,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(800, 512);
             Controls.Add(button1);
             Controls.Add(btnClose);
             Controls.Add(tabControl);
             Name = "MovementsForm";
-            Text = "MovementsForm";
+            Text = "Movimentações";
             Load += MovementsForm_Load;
             tabControl.ResumeLayout(false);
             tabPage1.ResumeLayout(false);

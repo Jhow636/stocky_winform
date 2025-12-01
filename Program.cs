@@ -39,8 +39,8 @@ namespace Stocky
             UserService.Register("user@company", "user", Models.Role.User);
 
             var admin = UserService.Login("admin@company", "admin");
-            ProductService.Register(admin!, "Screwdriver", "Flat head screwdriver", 1, 100, 20, "A1", 7.50m, defaultCat.Id);
-            ProductService.Register(admin!, "Hammer", "Claw hammer", 1, 50, 10, "A2", 12.00m, toolsCat.Id);
+            ProductService.Register(admin!, "Chave de fenda", "Chave de fenda de ponta chata", 1, 100, 20, "A1", 7.50m, defaultCat.Id);
+            ProductService.Register(admin!, "Martelo", "Martelo de garra", 1, 50, 10, "A2", 12.00m, toolsCat.Id);
         }
     }
 }

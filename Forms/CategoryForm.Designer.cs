@@ -106,6 +106,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(800, 320);
             Controls.Add(lstCategories);
             Controls.Add(btnClose);
@@ -115,7 +116,6 @@
             Controls.Add(txtCategoryName);
             Controls.Add(lblName);
             Name = "CategoryForm";
-            Text = "CategoryForm";
             Load += CategoryForm_Load;
             ResumeLayout(false);
             PerformLayout();
