@@ -19,16 +19,6 @@ namespace Stocky.Forms
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtEmail_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             var email = txtEmail.Text.Trim();
@@ -51,11 +41,6 @@ namespace Stocky.Forms
             this.Hide();
             main.ShowDialog();
             this.Close();
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

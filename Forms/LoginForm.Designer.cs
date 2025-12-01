@@ -45,7 +45,6 @@
             lblTitle.Size = new Size(293, 30);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "STOCKY - Gestão de Estoque";
-            lblTitle.Click += label1_Click;
             // 
             // lblEmail
             // 
@@ -71,7 +70,6 @@
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(412, 23);
             txtEmail.TabIndex = 3;
-            txtEmail.TextChanged += txtEmail_TextChanged;
             // 
             // txtPassword
             // 
@@ -86,7 +84,7 @@
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(98, 28);
             btnLogin.TabIndex = 5;
-            btnLogin.Text = "Entra";
+            btnLogin.Text = "Entrar";
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
             // 
@@ -104,7 +102,6 @@
             Controls.Add(lblTitle);
             Name = "LoginForm";
             Text = "LoginForm";
-            Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

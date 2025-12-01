@@ -22,3 +22,4 @@ C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\refint\Stocky
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.pdb
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.genruntimeconfig.cache
 C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\ref\Stocky.dll
+C:\Users\alves\source\repos\Stocky\Stocky\obj\Debug\net8.0-windows\Stocky.sourcelink.json

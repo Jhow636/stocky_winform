@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Stocky.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Stocky.Models;
+using System.Xml.Linq;
 
 namespace Stocky.Forms
 {
@@ -19,6 +20,18 @@ namespace Stocky.Forms
         {
             _currentUser = currentUser ?? throw new ArgumentNullException(nameof(currentUser));
             InitializeComponent();
+
+            ApplyPermissions();
+        }
+
+        private void ApplyPermissions()
+        {
+            if (_currentUser.Role == Role.User)
+            {
+                btnProducts.Enabled = false;
+                btnCategories.Enabled = false;
+                btnMovements.Enabled = false;
+            }
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -84,7 +97,10 @@ namespace Stocky.Forms
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            this.Close();
+            using var login = new LoginForm();
+            this.Hide();
+            login.ShowDialog();
+            this.Close(); 
         }
     }
 }
