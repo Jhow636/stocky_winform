@@ -101,9 +101,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(108, 200);
             label1.Name = "label1";
-            label1.Size = new Size(42, 15);
+            label1.Size = new Size(39, 15);
             label1.TabIndex = 12;
-            label1.Text = "Senha:";
+            label1.Text = "Papel:";
             // 
             // comboRole
             // 
